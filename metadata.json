@@ -1,0 +1,7 @@
+{
+  "name": "HepatiScan AI",
+  "description": "An advanced health companion that analyzes physical symptoms and visual indicators to assess liver health risks, providing educational resources, precautions, and specialist referrals.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
