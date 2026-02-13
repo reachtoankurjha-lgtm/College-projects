@@ -1,5 +1,5 @@
 HepatiScan AI
-<div align="center"> <img width="1200" alt="HepatiScan AI Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" /> </div>
+
 HepatiScan AI is an intelligent health companion that uses AI to assess liver health risks based on physical symptoms and visual indicators. It provides users with instant analysis, educational resources, personalized recommendations, and a directory of specialists – all within a clean, mobile-friendly interface.
 
 ✨ Features
