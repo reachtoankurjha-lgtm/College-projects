@@ -2,7 +2,8 @@ HepatiScan AI
 
 HepatiScan AI is an intelligent health companion that uses AI to assess liver health risks based on physical symptoms and visual indicators. It provides users with instant analysis, educational resources, personalized recommendations, and a directory of specialists – all within a clean, mobile-friendly interface.
 
-✨ Features
+Features
+
 AI-Powered Symptom Analysis – Describe symptoms or upload images; the app (via Gemini API) returns a potential liver condition, confidence score, and detected indicators.
 
 Personalized Recommendations – Get actionable next steps based on your assessment.
@@ -34,7 +35,7 @@ AI Integration: Google GenAI SDK (Gemini API)
 
 Local Storage: Persists analysis history
 
-🚀 Getting Started
+Getting Started
 Prerequisites
 Node.js (v18 or later)
 
@@ -70,10 +71,11 @@ bash
 npm run build
 The output will be in the dist folder.
 
-🔐 Environment Variables
+Environment Variables
 Variable	Description	Required
+
 GEMINI_API_KEY	Your Google Gemini API key	Yes
-📁 Project Structure
+Project Structure
 text
 hepatiscan-ai/
 ├── public/                 # Static assets (if any)
@@ -99,21 +101,16 @@ hepatiscan-ai/
 └── README.md
 🧠 How It Works
 Home Screen – Start a new scan or navigate to other sections.
-
 Scanner – Enter symptoms or (if implemented) capture an image. The app sends the data to Gemini AI, which returns a structured analysis.
-
 Results – View the likely condition, confidence, matched symptoms, and recommended steps.
-
 Referrals – Browse a list of liver specialists (sample data; can be extended).
-
 Reports – Review your previous analyses stored in local storage.
-
 Education – Read about common liver diseases and their management.
 
-📱 Camera Permissions
+Camera Permissions
 The app requests camera access to enable visual symptom analysis (e.g., jaundice detection). This permission is only used when you explicitly start a scan.
 
-🔮 Future Enhancements
+Future Enhancements
 Real image upload/analysis via Gemini Vision
 
 User accounts with cloud sync
@@ -124,7 +121,7 @@ Multi-language support
 
 Push notifications for health reminders
 
-📄 License
+License
 This project is intended for demonstration and educational purposes. All rights reserved.
 
 🙌 Acknowledgements
