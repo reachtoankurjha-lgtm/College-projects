@@ -77,29 +77,31 @@ Variable	Description	Required
 GEMINI_API_KEY	Your Google Gemini API key	Yes
 Project Structure
 text
-hepatiscan-ai/
-├── public/                 # Static assets (if any)
-├── src/
-│   ├── components/         # Reusable UI components (Layout, etc.)
-│   ├── pages/              # Application views
-│   │   ├── Home.tsx
-│   │   ├── Scanner.tsx
-│   │   ├── Education.tsx
-│   │   ├── Reports.tsx
-│   │   ├── Referrals.tsx
-│   │   ├── Help.tsx
-│   │   └── Login.tsx
-│   ├── types.ts            # TypeScript interfaces and enums
-│   ├── constants.ts        # Static data (diseases, referrals)
-│   ├── App.tsx             # Main app component with routing logic
-│   └── index.tsx           # Entry point
-├── .env.local.example      # Example environment variables (create your own)
-├── index.html              # HTML template
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-🧠 How It Works
+hepatiscan-ai
+.public                 # Static assets (if any)
+.src
+.components         # Reusable UI components (Layout, etc.)
+.pages              # Application views
+. Home.tsx
+ .Scanner.tsx
+ .Education.tsx
+ .Reports.tsx
+ .Referrals.tsx
+ .Help.tsx
+ .Login.tsx
+ .types.ts            # TypeScript interfaces and enums
+ .constants.ts        # Static data (diseases, referrals)
+ .App.tsx             # Main app component with routing logic
+ .index.tsx           # Entry point
+.env.local.example      # Example environment variables (create your own)
+.index.html              # HTML template
+.package.json
+.tsconfig.json
+.vite.config.ts
+.README.md
+
+ How It Works
+ 
 Home Screen – Start a new scan or navigate to other sections.
 Scanner – Enter symptoms or (if implemented) capture an image. The app sends the data to Gemini AI, which returns a structured analysis.
 Results – View the likely condition, confidence, matched symptoms, and recommended steps.
